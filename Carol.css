@@ -1,0 +1,85 @@
+
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+    background-color: rgb(205, 147, 188);
+        text-align: center;
+    }
+    .main{
+        height: auto;
+        width: auto;
+        margin-top: 20px;
+    }
+    .main p{
+        color: beige;
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    /* buttons css */
+    .container{
+        background-color: azure;
+        height: 50px;
+        padding-top: 25px;
+        border: 2px solid black;
+    }
+    .container a{
+        background-color: pink;
+        border: 2px solid black;
+        color: black;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 10px;
+        text-decoration: none;
+        
+    }
+    .container .con{
+        background-color: khaki;
+        padding: 15px;
+    }
+    .container a:hover{
+        padding: 15px;
+        transition: background-color 0.4s;
+    }
+    .container .home:hover{
+        background-color:rgb(207, 101, 182); 
+    }
+    .container .prod:hover{
+        background-color: rgb(207, 101, 182); 
+    }
+    .container .con:hover{
+        background-color: rgb(207, 101, 182); ;
+    }
+    .container .abt:hover{
+        background-color: rgb(207, 101, 182); 
+    }
+    .contentbox h1{
+        margin-top: 50px;
+        color: 	rgb(19, 2, 30); /*color codes */
+
+    }
+    .contentbox p{
+        margin-top: 20px;
+        padding: 20px;
+    color: rgb(37, 10, 54);
+        font-size: 30px;
+
+    }
+    /* animation CSS for fadein of images in producs */
+    .contentbox p, h1{
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        }
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
